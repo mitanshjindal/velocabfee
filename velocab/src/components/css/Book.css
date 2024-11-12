@@ -1,0 +1,63 @@
+body {
+    background: url("https://fleetautonews.com.au/wp-content/uploads/2022/05/Step-1-to-ev-your-fleet-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-control {
+    border: none;
+    border-bottom: 2px solid black;
+}
+.yup {
+    border-radius: 9px;
+}    
+.setbup{
+    display: flex;
+    justify-content: center;
+}    
+.btn-see-prices {
+    border-radius: 10px;
+    width: 80%; 
+    height: 50px;
+    font-size: large; 
+    background-color: rgb(64, 155, 234);
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div img, button{
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+div img:hover ,button:hover{
+    transform: scale(1.1);
+}
+.awesomplete {
+    width: 100%;
+}
+#distanceOutput {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading-left {
+    text-align: left;
+}
+
+.rounded-pill {
+    background-color: rgba(255, 255, 255, 0.71);
+}
+img {
+    border-radius: 50%;
+    width: 170px;
+    height: 100px;
+}
+.row {
+    align-items: center;
+}
+.spinner-border {
+    display: none;
+    margin-left: 10px;
+}

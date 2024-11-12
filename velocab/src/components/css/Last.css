@@ -1,0 +1,42 @@
+.last-rides-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .ride-history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .ride-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .ride-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .ride-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .ride-card h2 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .ride-card p {
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  

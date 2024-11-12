@@ -1,0 +1,105 @@
+ .bodys { 
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image:  url(https://plus.unsplash.com/premium_photo-1661290470322-a313098e7c2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  
+  .signup-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(248, 245, 245,0.71);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  form legend {
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="number"],
+  form input[type="date"],
+  form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  .insign{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-color: black;
+
+  }
+
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .latexts{
+    color: black;
+  }
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  #message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .signup-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  .oneup{
+    display: flex;
+    flex-direction: column;
+  }
+  .onein{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+  }

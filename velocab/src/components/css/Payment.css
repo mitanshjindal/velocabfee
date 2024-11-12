@@ -1,0 +1,96 @@
+
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ride-details {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ride-details h2 {
+    color: #0070f3;
+    margin-top: 0;
+  }
+  
+  .ride-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .ride-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .payment-methods button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .payment-methods button.active {
+    background-color: #0070f3;
+    color: white;
+  }
+  
+  .payment-form input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .payment-form button[type="submit"] {
+    padding: 12px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .payment-form button[type="submit"]:hover {
+    background-color: #0051a2;
+  }
+  
+  .payment-form button[type="submit"]:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }

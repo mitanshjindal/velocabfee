@@ -1,0 +1,17 @@
+.containert{
+    display: flex;
+}
+.bodyto{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p i{
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+p i:hover{
+    transform: scale(1.5);
+}
